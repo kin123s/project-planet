@@ -50,6 +50,8 @@ any > {
     MenuRender() {
         return ( RouteList.map((row, index) => {
             
+            console.log( "process.env.ROUTE_PATH" , process.env.ROUTE_PATH)
+
             const LinkPath = process.env.ROUTE_PATH+row.url;
             // console.log(row.list);
             

@@ -9,7 +9,7 @@
     "@types/reactstrap": "^8.0.1",
     "@types/recharts": "^1.1.16",
     "@types/redux-action": "^1.2.5",
-    "@types/styled-components": "^4.0.3",
+    "@types/styled-components": "^4.1.8",
     "autoprefixer": "7.1.6",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.2",

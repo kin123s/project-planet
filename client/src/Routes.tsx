@@ -3,6 +3,7 @@ import {Switch, Route, Redirect} from 'react-router-dom';
 
 import Member from '@views/pages/member/Member';
 import Admin from '@views/layout/Admin';
+import Main from '@views/layout/Main';
 
 export interface IRoutesProps {}
 
@@ -15,6 +16,7 @@ any > {
                 <Switch>
                     <Route path="/member" component={Member}/>
                     <Route path="/Admin" component={Admin}/> 
+                    <Route path="/Main" component={Main}/> 
                     <Redirect to="/member"/>
                 </Switch>
 
